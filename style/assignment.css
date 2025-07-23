@@ -24,4 +24,27 @@ nav ul li a {
 .shop-item img {
   width: 18px;
   height: auto;
+  
+}
+.price{
+    margin-right: 20px;
+}
+.highlight{
+    color: chocolate;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+
+}
+.hero-section{
+    margin:20px 20px ;
+}
+
+.hero-section img {
+  max-width: 300px;
+  height: auto;
 }
