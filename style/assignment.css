@@ -80,6 +80,61 @@ nav ul li a {
   padding: 10px;
   width: 100%;
 }
+/* flower and Plants section */
+.flower-section {
+  margin-top: 127px;
+  padding: 20px;
+}
+.flower-container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.image-container {
+  position: relative;
+  max-width: 350px;
+}
+
+.main-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.badge {
+  position: absolute;
+  top: -28px;
+  right: -28px;
+  width: 80px;
+  z-index: 10;
+}
+
+.flower-content {
+  max-width: 500px;
+  text-align: left;
+}
+
+.flower-content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.flower-content ul {
+  padding-left: 20px;
+}
+
+.flower-content li {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.least{
+  text-align: center;
+}
+
 
 
 
