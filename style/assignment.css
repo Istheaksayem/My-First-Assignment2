@@ -312,8 +312,8 @@ margin-bottom: 200px;
   transform: scale(1.2);
 }
 /* Responsive for mobile devices */
-@media (max-width: 576px) {
-  @media (max-width: 576px) {
+@media (max-width: 640px) {
+  @media (max-width: 640px) {
   .navbar {
     flex-direction: row;
     justify-content: space-between;
@@ -364,6 +364,9 @@ margin-bottom: 200px;
    
    
   }
+  .badge{
+    display: none;
+  }
    .latest-container {
     flex-direction: column;
     align-items: center;
@@ -386,4 +389,8 @@ margin-bottom: 200px;
   width: 100%;
   padding: 0 15px;
 }
+.footer-section{
+  flex-direction: column;
+}
+
   }
